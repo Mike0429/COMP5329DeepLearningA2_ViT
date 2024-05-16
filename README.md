@@ -13,3 +13,22 @@ python -m venv venv
 
 # Activate the virtual environment
 .\venv\Scripts\activate
+
+### For macOS and Linux
+```bash
+# Create a virtual environment
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
+
+## Step 2: Install Required Packages
+Download the necessary packages specified in the requirements.txt file located in the repository. Use pip to install these packages.
+
+### For Windows
+pip install -r requirements.txt
+
+## Step 3: Configure CUDA and cuDNN
+To leverage GPU acceleration, ensure that your CUDA and cuDNN environments are correctly configured. Follow the official CUDA Installation Guide and the cuDNN Installation Guide provided by NVIDIA.
+
+Make sure to match the CUDA version with the version supported by your installed PyTorch.
