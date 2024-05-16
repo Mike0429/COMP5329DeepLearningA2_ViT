@@ -2,26 +2,19 @@
 
 Welcome to the COMP5329 Deep Learning Assignment 2 project using Vision Transformer (ViT)! Please follow the steps below to set up your environment and prepare for running the code.
 
-## Step 1: Create Virtual Environment and Activate
+## Step 1: Step 1: Create and Activate Conda Environment
 
-It's best practice to use a virtual environment to manage dependencies for your project. Here’s how you can create and activate one:
+It's best practice to use a virtual environment to manage dependencies for your project. Here’s how you can create and activate one using Anaconda:
 
-### For Windows
+### For All Operating Systems
 ```bash
-# Create a virtual environment
-python -m venv venv
+# Create a conda environment with Python 3.10
+conda create -n vit_env python=3.10
 
-# Activate the virtual environment
-.\venv\Scripts\activate
+# Activate the conda environment
+conda activate vit_env
 ```
-### For macOS and Linux
-```bash
-# Create a virtual environment
-python3 -m venv venv
 
-# Activate the virtual environment
-source venv/bin/activate
-```
 ## Step 2: Install Required Packages
 Download the necessary packages specified in the requirements.txt file located in the repository. Use pip to install these packages.
 
