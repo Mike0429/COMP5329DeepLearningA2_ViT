@@ -33,3 +33,18 @@ pip install -r requirements.txt
 To leverage GPU acceleration, ensure that your CUDA and cuDNN environments are correctly configured. Follow the official CUDA Installation Guide and the cuDNN Installation Guide provided by NVIDIA.
 
 Make sure to match the CUDA version with the version supported by your installed PyTorch.
+
+## Step 4: Train the Model
+Run the VisionTransformer_small.py script to train the Vision Transformer model.
+
+```bash
+python VisionTransformer_small.py
+```
+
+## Step 5: Predict with the Model
+Run the predict.py script to make predictions using the trained model.
+
+```bash
+python predict.py
+```
+
